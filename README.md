@@ -9,7 +9,13 @@ An unofficial Qt/Python desktop manager for your own GoldHEN-enabled PS4, built 
 - Optional local-network PS4 discovery, drag-and-drop uploads, connection monitoring, and notification center
 - Theme Studio, activity dashboard, plugin marketplace, and PKG tools for legitimate homebrew
 
-## Installation (Gentoo/Linux)
+## Source availability
+
+This repository currently contains documentation and dependencies only. The `ps4_bridge.py` application source is missing, and no GitHub release has been published here yet. Cloning this repository is not sufficient to run PS4 Bridge.
+
+## Running a complete source bundle (Gentoo/Linux)
+
+The following commands apply only to a source folder that includes `ps4_bridge.py` and its supporting modules and assets:
 
 ```bash
 python3 -m venv .venv
